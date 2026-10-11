@@ -1,0 +1,8 @@
+{
+  "address": "mail.example.com",
+  "port": 465,
+  "user_name": "foo@bar.com",
+  "password": "mysmtppassword",
+  "authentication": "login",
+  "tls": true
+}

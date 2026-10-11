@@ -1,0 +1,14 @@
+<%# Copyright (C) 2024-2025 LibreWeddingPlanner contributors %>
+
+<p><%= I18n.t('admin_mailer.greeting') %>,</p>
+
+<p><%= I18n.t('admin_mailer.wedding_deletion_request.paragraph_1') %></p>
+<p><%= I18n.t('admin_mailer.wedding_deletion_request.paragraph_2', slug: @wedding.slug ) %></p>
+<p><%= I18n.t('admin_mailer.wedding_deletion_request.paragraph_3') %></p>
+
+<%= 
+  link_to(
+    t('admin_mailer.wedding_deletion_request.confirm_deletion'), 
+    confirm_wedding_deletion_settings_url(slug: @wedding.slug, deletion_token: @wedding.deletion_token)
+  ) 
+%>

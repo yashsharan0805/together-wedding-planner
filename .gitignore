@@ -1,0 +1,28 @@
+# Upstream checkouts are independent repositories. Their adapted source is
+# included in the distributable source archive rather than embedded gitlinks.
+frontend/
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/*.key
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.crt
+**/credentials*.yml.enc
+**/client_secret*.json
+**/*service-account*.json
+**/.local-certs/
+**/.bundle/
+**/__pycache__/
+**/*.pyc
+**/*.sql.gz
+**/*.dump
+**/*.sqlite*
+output/
+.playwright-cli/
+.playwright/
+.DS_Store
+.vercel/
+.vercel

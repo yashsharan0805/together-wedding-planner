@@ -1,0 +1,62 @@
+name: together-wedding-planner
+services:
+  db:
+    image: postgres:18
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: local-development-only
+      POSTGRES_DB: together_development
+    volumes:
+      - postgres-data:/var/lib/postgresql
+    healthcheck:
+      test: [CMD-SHELL, 'pg_isready -U postgres -d together_development']
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  valkey:
+    image: valkey/valkey:8-alpine
+    volumes:
+      - valkey-data:/data
+    healthcheck:
+      test: [CMD, valkey-cli, ping]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.together
+    environment:
+      RAILS_ENV: development
+      DATABASE_URL: postgres://postgres:local-development-only@db:5432/together_development
+      REDIS_URL: redis://valkey:6379/1
+      SIDEKIQ_REDIS_URL: redis://valkey:6379/3
+      APP_HOST: localhost:8080
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
+    volumes:
+      - ./backend:/rails
+      - gem-data:/usr/local/bundle
+    depends_on:
+      db: {condition: service_healthy}
+      valkey: {condition: service_healthy}
+    # Explicit migrations avoid the upstream db:prepare seed path on a new DB.
+    command: [bash, -lc, '(bundle check || bundle install) && bin/rails db:create db:migrate && bin/rails server -b 0.0.0.0']
+    healthcheck:
+      test: [CMD, curl, -f, 'http://localhost:3000/up']
+      interval: 10s
+      timeout: 5s
+      retries: 30
+  web:
+    image: nginx:1.28-alpine
+    ports:
+      - '127.0.0.1:8080:80'
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+      - ./deploy/config.live.js:/usr/share/nginx/html/config.js:ro
+      - ./deploy/nginx.dev.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      backend: {condition: service_healthy}
+volumes:
+  postgres-data:
+  valkey-data:
+  gem-data:

@@ -1,0 +1,11 @@
+<p><%= I18n.t('admin_mailer.greeting') %>,</p>
+
+<p><%= I18n.t('user_mailer.membership_invitation.paragraph_1', slug: @membership.wedding.slug) %></p>
+<p><%= I18n.t('user_mailer.membership_invitation.paragraph_2') %></p>
+
+<%= 
+  link_to(
+    t('admin_mailer.membership_invitation.accept_invitation'), 
+    accept_membership_url(@membership, slug: @membership.wedding.slug, confirmation_token: @membership.confirmation_token)
+  ) 
+%>

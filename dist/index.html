@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#3c5946">
+  <meta name="description" content="Plan every celebration together. Your wedding checklist, guest list, budget, and team in one beautiful workspace.">
+  <title>Together — Wedding Planner</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%233c5946'/%3E%3Ctext x='20' y='29' text-anchor='middle' fill='white' font-size='30'%3E%26%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a href="#overview" class="brand"><span class="brand-mark">&</span><span>together<small>YOUR WEDDING, IN GOOD HANDS</small></span></a>
+    <div class="workspace-label">YOUR WEDDING WORKSPACE</div>
+    <nav aria-label="Main navigation" id="navigation"></nav>
+    <div class="sidebar-note"><span class="flower">✳</span><h3>A little less planning.<br>A little more celebrating.</h3><p>Make space for the moments<br>that matter most.</p></div>
+    <button class="account" id="account"><span class="avatar">D</span><span id="account-name">Demo workspace<small>Saved on this browser</small></span><span>↗</span></button>
+  </aside>
+  <div class="shell">
+    <header class="topbar"><span class="breadcrumb">Your wedding <span>/</span> <b id="page-label">Overview</b></span><div class="header-actions"><span class="sync-status" id="sync-status">● Browser demo</span><button class="button subtle" id="signin"><span class="google-icon">G</span> Sign in with Google</button><button class="button primary" id="share">↗ Invite people</button></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer>Made for your happily ever after. <a href="together-source.tar.gz" download>Source · AGPL-3.0</a><span>TOGETHER, EVERY STEP OF THE WAY.</span></footer>
+  </div>
+  <dialog id="dialog" aria-labelledby="dialog-title"><div class="dialog-head"><h2 id="dialog-title"></h2><button id="close-dialog" class="icon-button" aria-label="Close dialog">×</button></div><div id="dialog-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

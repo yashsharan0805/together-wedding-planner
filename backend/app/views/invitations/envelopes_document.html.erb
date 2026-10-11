@@ -1,0 +1,10 @@
+<%# Copyright (C) 2024-2025 LibreWeddingPlanner contributors %>
+
+<h1><%= t("use_cases.envelopes_document.header") %></h1>
+<p><%= t("use_cases.envelopes_document.intro") %></p>
+
+<ol>
+  <% invitations.select { it.title.present? }.each do |invitation| %>
+    <%= content_tag(:li, invitation.title) %>
+  <% end %>
+</ol>

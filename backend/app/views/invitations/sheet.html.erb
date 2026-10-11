@@ -1,0 +1,24 @@
+<%# Copyright (C) 2024-2025 LibreWeddingPlanner contributors %>
+
+<% invitations.each_with_index do |invitation, i| %>
+  <div style="<%= invitation_config.background.css_dimensions %> position:relative; background-image: url('<%= invitation_config.background.to_data_url %>'); background-size: 100% 100%;">
+    <div style="<%= invitation_config.qr_css %>">
+      <%= RQRCode::QRCode.new(invitation.url).as_svg(
+            border_modules: 0,
+            color_mode: ChunkyPNG::COLOR_TRUECOLOR_ALPHA,
+            color: invitation_config.qr_color&.sub('#', ''),
+            fill: invitation_config.qr_fill_color&.sub('#', ''),
+            use_path: true,
+            viewbox: true,
+            size: invitation_config.qr_size_px,
+          ).html_safe
+      %>
+    </div>
+    <ul style="<%= invitation_config.fonts_css %>">
+      <% invitation.guests.each do |guest| %>
+        <%= content_tag(:li, guest.name) %>
+      <% end %>
+    </ul>
+  </div>
+  <div style="page-break-after: always;"></div>
+<% end %>

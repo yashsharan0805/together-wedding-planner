@@ -1,0 +1,6 @@
+<%= I18n.t('admin_mailer.greeting') %>,
+
+<%= I18n.t('user_mailer.membership_invitation.paragraph_1', slug: @membership.wedding.slug) %>
+<%= I18n.t('user_mailer.membership_invitation.paragraph_2') %>
+
+<%= accept_membership_url(@membership, slug: @membership.wedding.slug, confirmation_token: @membership.confirmation_token) %>

@@ -1,0 +1,2444 @@
+{
+  "ruby": "4.0.7",
+  "bundler": "4.0.13",
+  "dependency_count": 184,
+  "default_group_dependency_count": 138,
+  "gemfile_lock_sha256": "4869451e8953ee450bda9d6b1673ac3e003992faff3ec1367a90a4b6b75e2c47",
+  "generated_at_utc": "2026-10-11T11:27:13.858733+00:00",
+  "scope": "Ruby gem metadata and targeted installed license notice review; not a full legal or container/asset audit.",
+  "dependencies": [
+    {
+      "name": "action_text-trix",
+      "version": "2.1.19",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "actioncable",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "actionmailbox",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "actionmailer",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "actionpack",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "actiontext",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "actionview",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "activejob",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "activemodel",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "activerecord",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "activestorage",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "activesupport",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "acts_as_tenant",
+      "version": "1.0.1",
+      "licenses": [],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [],
+      "reviewed_license": "MIT",
+      "evidence": "Installed README/LICENSE; gem metadata does not declare a license."
+    },
+    {
+      "name": "addressable",
+      "version": "2.8.9",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "annotaterb",
+      "version": "4.25.0",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ast",
+      "version": "2.4.3",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.MIT"
+      ]
+    },
+    {
+      "name": "base64",
+      "version": "0.3.0",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "bcrypt",
+      "version": "3.1.22",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "benchmark",
+      "version": "0.5.0",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "bigdecimal",
+      "version": "4.1.3",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "bindex",
+      "version": "0.8.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "bootsnap",
+      "version": "1.26.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "builder",
+      "version": "3.3.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "bullet",
+      "version": "8.2.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "bundler",
+      "version": "4.0.13",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "childprocess",
+      "version": "5.1.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "chroma",
+      "version": "0.2.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "chunky_png",
+      "version": "1.4.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "coderay",
+      "version": "1.1.3",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "concurrent-ruby",
+      "version": "1.3.8",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "connection_pool",
+      "version": "3.0.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "crass",
+      "version": "1.0.7",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "csv",
+      "version": "3.3.6",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "database_consistency",
+      "version": "3.0.15",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "date",
+      "version": "3.5.1",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "debug",
+      "version": "1.11.1",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "devise",
+      "version": "5.0.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "diff-lcs",
+      "version": "1.6.2",
+      "licenses": [
+        "MIT",
+        "Artistic-1.0-Perl",
+        "GPL-2.0-or-later"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENCE.md"
+      ]
+    },
+    {
+      "name": "doorkeeper",
+      "version": "5.9.9",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "drb",
+      "version": "2.2.3",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "erb",
+      "version": "6.0.7",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING",
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "erubi",
+      "version": "1.13.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "et-orbi",
+      "version": "1.4.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "factory_bot",
+      "version": "6.5.5",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "factory_bot_rails",
+      "version": "6.5.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "faker",
+      "version": "3.8.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "faraday",
+      "version": "2.14.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "faraday-net_http",
+      "version": "3.4.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "ffi",
+      "version": "1.17.2",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING",
+        "LICENSE",
+        "LICENSE.SPECS"
+      ]
+    },
+    {
+      "name": "fugit",
+      "version": "1.13.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "globalid",
+      "version": "1.4.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "google-cloud-env",
+      "version": "2.4.1",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "google-logging-utils",
+      "version": "0.2.0",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "googleauth",
+      "version": "1.17.4",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "httparty",
+      "version": "0.24.3",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "i18n",
+      "version": "1.15.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "imgkit",
+      "version": "1.6.3",
+      "licenses": [],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ],
+      "reviewed_license": "MIT",
+      "evidence": "Installed README/LICENSE; gem metadata does not declare a license."
+    },
+    {
+      "name": "importmap-rails",
+      "version": "2.2.3",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "io-console",
+      "version": "0.9.4",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "irb",
+      "version": "1.18.0",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "jbuilder",
+      "version": "2.15.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "json",
+      "version": "2.21.2",
+      "licenses": [
+        "Ruby"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "json-schema",
+      "version": "6.2.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "jsonapi-deserializable",
+      "version": "0.2.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "jsonapi-parser",
+      "version": "0.1.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "jsonapi-rails",
+      "version": "0.4.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "jsonapi-rb",
+      "version": "0.5.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "jsonapi-renderer",
+      "version": "0.2.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "jsonapi-serializable",
+      "version": "0.3.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "jwt",
+      "version": "3.3.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "language_server-protocol",
+      "version": "3.17.0.6",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "launchy",
+      "version": "3.0.1",
+      "licenses": [
+        "ISC"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "letter_opener",
+      "version": "1.10.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "letter_opener_web",
+      "version": "3.0.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "license_finder",
+      "version": "7.2.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE",
+        "license_finder.gemspec"
+      ]
+    },
+    {
+      "name": "lint_roller",
+      "version": "1.1.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "logger",
+      "version": "1.7.0",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "loofah",
+      "version": "2.25.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "mail",
+      "version": "2.9.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "marcel",
+      "version": "1.1.1",
+      "licenses": [
+        "MIT",
+        "Apache-2.0"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "method_source",
+      "version": "1.1.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "mini_mime",
+      "version": "1.1.5",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "minitest",
+      "version": "6.0.6",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "mission_control-jobs",
+      "version": "1.3.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "money",
+      "version": "7.1.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "msgpack",
+      "version": "1.8.4",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "multi_xml",
+      "version": "0.8.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "net-http",
+      "version": "0.9.1",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "net-imap",
+      "version": "0.5.15",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING",
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "net-pop",
+      "version": "0.1.2",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "net-protocol",
+      "version": "0.2.2",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "net-smtp",
+      "version": "0.5.2",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "nio4r",
+      "version": "2.7.5",
+      "licenses": [
+        "MIT",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "license.md"
+      ]
+    },
+    {
+      "name": "nokogiri",
+      "version": "1.19.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE-DEPENDENCIES.md",
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "orm_adapter",
+      "version": "0.5.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "os",
+      "version": "1.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "ostruct",
+      "version": "0.6.2",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "parallel",
+      "version": "1.28.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "parser",
+      "version": "3.3.12.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pg",
+      "version": "1.7.0",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pluck_to_hash",
+      "version": "1.0.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "pp",
+      "version": "0.6.4",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "prettyprint",
+      "version": "0.2.0",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "prism",
+      "version": "1.9.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "pry",
+      "version": "0.16.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "pstore",
+      "version": "0.2.1",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "public_suffix",
+      "version": "6.0.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "puma",
+      "version": "8.0.2",
+      "licenses": [
+        "BSD-3-Clause"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "raabro",
+      "version": "1.5.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "racc",
+      "version": "1.8.1",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "rack",
+      "version": "3.2.7",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rack-cors",
+      "version": "3.0.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rack-session",
+      "version": "2.1.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "license.md"
+      ]
+    },
+    {
+      "name": "rack-test",
+      "version": "2.2.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rackup",
+      "version": "2.3.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "license.md"
+      ]
+    },
+    {
+      "name": "rails",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rails-dom-testing",
+      "version": "2.3.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rails-html-sanitizer",
+      "version": "1.7.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "railties",
+      "version": "8.1.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rainbow",
+      "version": "3.1.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "rake",
+      "version": "13.4.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rbs",
+      "version": "4.2.0",
+      "licenses": [
+        "BSD-2-Clause",
+        "Ruby"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "rdoc",
+      "version": "8.1.0",
+      "licenses": [
+        "Ruby",
+        "GPL-2.0-only"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.rdoc"
+      ]
+    },
+    {
+      "name": "redis",
+      "version": "6.0.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "redis-client",
+      "version": "0.30.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "regexp_parser",
+      "version": "2.13.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "reline",
+      "version": "0.7.0",
+      "licenses": [
+        "Ruby"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING",
+        "license_of_rb-readline"
+      ]
+    },
+    {
+      "name": "responders",
+      "version": "3.2.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rexml",
+      "version": "3.3.9",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rqrcode",
+      "version": "3.2.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rqrcode_core",
+      "version": "2.1.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rspec-core",
+      "version": "3.13.6",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "rspec-expectations",
+      "version": "3.13.5",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "rspec-mocks",
+      "version": "3.13.8",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "rspec-rails",
+      "version": "8.0.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "rspec-sidekiq",
+      "version": "5.3.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "rspec-support",
+      "version": "3.13.7",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "rswag",
+      "version": "2.17.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rswag-api",
+      "version": "2.17.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rswag-specs",
+      "version": "2.17.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rswag-ui",
+      "version": "2.17.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "rubocop",
+      "version": "1.91.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rubocop-ast",
+      "version": "1.50.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rubocop-factory_bot",
+      "version": "2.28.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "rubocop-rails",
+      "version": "2.38.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rubocop-rake",
+      "version": "0.7.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "rubocop-rspec",
+      "version": "3.10.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "rubocop-rspec_rails",
+      "version": "2.33.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "ruby-progressbar",
+      "version": "1.13.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "ruby-vips",
+      "version": "2.3.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "rubytree",
+      "version": "2.2.3",
+      "licenses": [
+        "BSD-2-Clause"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "rubyzip",
+      "version": "2.3.2",
+      "licenses": [
+        "BSD 2-Clause"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "securerandom",
+      "version": "0.4.1",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "sentry-rails",
+      "version": "7.1.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "sentry-ruby",
+      "version": "7.1.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "shoulda-matchers",
+      "version": "8.0.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development",
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "sidekiq",
+      "version": "8.1.7",
+      "licenses": [
+        "LGPL-3.0"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "signet",
+      "version": "0.22.0",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "simplecov",
+      "version": "1.3.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "test"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "solid_queue",
+      "version": "1.7.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "sprockets",
+      "version": "4.2.1",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "sprockets-rails",
+      "version": "3.5.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "stimulus-rails",
+      "version": "1.3.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "strong_migrations",
+      "version": "2.8.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "test-prof",
+      "version": "1.6.4",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "thor",
+      "version": "1.5.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "timeout",
+      "version": "0.6.1",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "tomlrb",
+      "version": "2.0.3",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "tsort",
+      "version": "0.2.0",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "turbo-rails",
+      "version": "2.0.23",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": []
+    },
+    {
+      "name": "tzinfo",
+      "version": "2.0.6",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "unicode-display_width",
+      "version": "2.6.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "uniform_notifier",
+      "version": "1.18.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "uri",
+      "version": "1.1.2",
+      "licenses": [
+        "Ruby",
+        "BSD-2-Clause"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "COPYING"
+      ]
+    },
+    {
+      "name": "useragent",
+      "version": "0.16.11",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "warden",
+      "version": "1.2.9",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE"
+      ]
+    },
+    {
+      "name": "web-console",
+      "version": "4.3.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "development"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "webdack-uuid_migration",
+      "version": "1.5.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "websocket-driver",
+      "version": "0.8.2",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "websocket-extensions",
+      "version": "0.1.5",
+      "licenses": [
+        "Apache-2.0"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.md"
+      ]
+    },
+    {
+      "name": "wicked_pdf",
+      "version": "2.8.2",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [
+        "default"
+      ],
+      "direct_dependency": true,
+      "included_in_default_group": true,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "with_env",
+      "version": "1.1.0",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": [
+        "LICENSE.txt"
+      ]
+    },
+    {
+      "name": "xml-simple",
+      "version": "1.1.9",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": false,
+      "license_files": []
+    },
+    {
+      "name": "zeitwerk",
+      "version": "2.8.3",
+      "licenses": [
+        "MIT"
+      ],
+      "groups": [],
+      "direct_dependency": false,
+      "included_in_default_group": true,
+      "license_files": []
+    }
+  ]
+}

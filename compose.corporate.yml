@@ -1,0 +1,10 @@
+# Optional local build overlay for networks that inspect TLS traffic.
+# Export your existing trusted corporate CA to backend/.local-certs/corporate-ca.crt.
+services:
+  backend:
+    build:
+      secrets:
+        - corporate_ca
+secrets:
+  corporate_ca:
+    file: ./backend/.local-certs/corporate-ca.crt

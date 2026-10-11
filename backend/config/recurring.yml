@@ -1,0 +1,10 @@
+production: &common
+  periodic_downloads_cleanup:
+    class: CleanOldDownloadsJob
+    queue: workers
+    schedule: every hour
+  system_simulations_generator:
+    class: GenerateSystemSimulationsJob
+    queue: default
+    schedule: every 10 minutes
+development: *common

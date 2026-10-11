@@ -1,0 +1,58 @@
+en:
+  active_record:
+    attributes:
+      guest:
+        status: Status
+        name: Name
+        menu_choice: Menu choice
+        menu_restrictions: Menu restrictions
+        group: Group
+      guest/status:
+        considered: Considered
+        invited: Invited
+        confirmed: Confirmed
+        declined: Declined
+        tentative: Tentative
+      guest/menu_choice:
+        meat: Meat
+        fish: Fish
+        vegetarian: Vegetarian
+        child: Child menu
+      seat:
+        table: Table
+  activerecord:
+    errors:
+      models:
+        membership:
+          attributes:
+            user_id:
+              taken: is already a member
+  admin_mailer:
+    greeting: "Dear user"
+    attendance_change_email:
+      subject: "%{name} has changed their attendance status: %{status}"
+      paragraph_1: "The guest %{name} has changed their attendance for the wedding."
+      notify_on_updates: "You will be notified of any further changes to their attendance status."
+    invitations_pdf_email:
+      subject: "Your wedding invitations are ready"
+      paragraph_1: "Your wedding invitations are ready. Please, download them from the following link (valid for %{hours} hours):"
+      download: Download
+    wedding_deletion_request:
+      subject: Confirm the deletion of your account
+      paragraph_1: You are receiving this email because you have requested the deletion of your LibreWeddingPlanner account. Please, click the link at the bottom within 1 hour to effectively delete your account and all associated data (guests, groups, etc.). If the link has expired, you can request another one from the settings page.
+      paragraph_2: The slug used for your account and website, (%{slug}), will become available for someone else to pick. Make sure your guests don't need your website anymore (e.g., if it includes an address to send some gifts), as a new user choosing the same slug will have their own website with different information.
+      paragraph_3: We appreciate you've used LibreWeddingPlanner, and wholeheartedly hope it was useful to you. If you'd like to share some feedback, drop us a line, or use the issue tracker. Links in the web app footer or the project website.
+      confirm_deletion: Confirm deletion
+  user_mailer:
+    membership_invitation:
+      subject: Join the wedding organization team!
+      paragraph_1: You have been invited to participate in the organization of the wedding %{slug}. Click the following link to accept the invitation. If you think this has been a mistake, feel free to ignore the email.
+      paragraph_2: The link expires in one week.
+      accept_invitation: Accept invitation
+  use_cases:
+    envelopes_document:
+      header: List of invitations
+      intro: This document contains a list with the invitations that have been generated. Each invitation is represented by its name (if provided) or the guests included in it.
+  reports:
+    bus_groups:
+      guest_count: Guest count

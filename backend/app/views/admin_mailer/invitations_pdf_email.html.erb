@@ -1,0 +1,9 @@
+<%# Copyright (C) 2024-2025 LibreWeddingPlanner contributors %>
+
+<p><%= I18n.t('admin_mailer.greeting') %>,</p>
+
+<p>
+  <%= I18n.t('admin_mailer.invitations_pdf_email.paragraph_1', hours: Wedding::DOWNLOAD_EXPIRATION.in_hours.to_i) %>
+</p>
+
+<%= link_to(t('admin_mailer.invitations_pdf_email.download'), @invitations_url) %>

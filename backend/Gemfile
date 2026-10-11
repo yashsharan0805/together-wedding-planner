@@ -1,0 +1,78 @@
+# frozen_string_literal: true
+
+source 'https://gem.coop', cooldown: 7
+
+gem 'acts_as_tenant'
+gem 'benchmark'
+gem 'bootsnap', require: false
+gem 'chroma'
+gem 'csv'
+gem 'devise', '~> 5.0'
+gem 'httparty'
+gem 'googleauth', '~> 1.17'
+gem 'imgkit'
+gem 'importmap-rails'
+gem 'jbuilder'
+gem 'jsonapi-rails'
+gem 'mission_control-jobs'
+gem 'money'
+gem 'pg', '~> 1.1'
+gem 'pluck_to_hash'
+gem 'puma', '>= 5.0'
+gem 'rack-cors'
+gem 'rails', '~> 8.1.0', '>= 8.1.1'
+gem 'redis', '>= 4.0.1'
+gem 'rqrcode', '~> 3.2.0'
+gem 'rswag'
+gem 'rubytree'
+gem 'rubyzip', '~> 2.3', require: false
+gem 'ruby-vips'
+gem 'solid_queue', '~> 1.0'
+gem 'sprockets-rails'
+gem 'stimulus-rails'
+gem 'strong_migrations'
+gem 'turbo-rails'
+gem 'tzinfo-data', platforms: %i[windows jruby]
+gem 'wicked_pdf', '~> 2.8'
+
+group :development, :test do
+  gem 'annotaterb'
+  gem 'bullet'
+  gem 'debug', platforms: %i[mri windows]
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'license_finder'
+  gem 'pry'
+  gem 'rspec-rails', '~> 8.0.0'
+  gem 'shoulda-matchers', '~> 8.0'
+end
+
+group :development do
+  gem 'database_consistency', require: false
+  gem 'letter_opener_web'
+  gem 'rubocop'
+  gem 'rubocop-factory_bot', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rake', require: false
+  gem 'rubocop-rspec', require: false
+  gem 'rubocop-rspec_rails', require: false
+  gem 'test-prof'
+  gem 'web-console'
+end
+
+group :test do
+  gem 'rspec-sidekiq'
+  gem 'simplecov', require: false
+end
+
+gem 'webdack-uuid_migration', '~> 1.5'
+
+gem 'doorkeeper', '~> 5.9'
+
+gem 'bcrypt', '~> 3.1'
+
+gem 'connection_pool', '~> 3.0'
+
+gem 'sentry-rails', '~> 7.0'
+gem 'sentry-ruby', '~> 7.0'
+gem 'sidekiq', '~> 8.0'

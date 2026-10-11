@@ -1,0 +1,36 @@
+# Together's UI and Rails share one origin, including cookies and CSRF tokens.
+FROM ruby:4.0.7-slim AS build
+WORKDIR /rails
+ENV BUNDLE_WITHOUT=development:test BUNDLE_DEPLOYMENT=1 BUNDLE_PATH=/usr/local/bundle
+RUN apt-get update -qq && apt-get install --no-install-recommends -y \
+    build-essential git libpq-dev libyaml-dev pkg-config \
+    && rm -rf /var/lib/apt/lists/*
+COPY backend/Gemfile backend/Gemfile.lock ./
+RUN --mount=type=secret,id=corporate_ca \
+    if [ -s /run/secrets/corporate_ca ]; then \
+      cp /run/secrets/corporate_ca /usr/local/share/ca-certificates/together-corporate-ca.crt \
+      && update-ca-certificates; \
+    fi \
+    && gem install bundler -v 4.0.13 && bundle install \
+    && rm -rf /usr/local/bundle/ruby/*/cache /usr/local/bundle/cache
+
+FROM ruby:4.0.7-slim
+WORKDIR /rails
+ENV RAILS_ENV=production BUNDLE_WITHOUT=development:test BUNDLE_DEPLOYMENT=1 BUNDLE_PATH=/usr/local/bundle \
+    PORT=8080 RAILS_PORT=3000 WEB_CONCURRENCY=1 RAILS_MAX_THREADS=3 \
+    TOGETHER_HOSTED=true TOGETHER_GOOGLE_INVITES=true
+RUN apt-get update -qq && apt-get install --no-install-recommends -y \
+    nginx libpq5 libvips libyaml-0-2 curl \
+    && rm -rf /var/lib/apt/lists/* /etc/nginx/sites-enabled/default \
+    && useradd --create-home --shell /bin/bash together
+COPY --from=build /usr/local/bundle /usr/local/bundle
+COPY backend/ /rails/
+COPY dist/ /app/ui/
+COPY deploy/config.hosted.js /app/ui/config.js
+COPY deploy/nginx.hosted.conf /app/nginx.conf.template
+COPY deploy/start-hosted.sh /app/start-hosted.sh
+RUN chmod +x /app/start-hosted.sh && mkdir -p tmp/pids log \
+    && chown -R together:together /rails /app /var/lib/nginx /var/log/nginx
+USER together
+EXPOSE 8080
+CMD ["/app/start-hosted.sh"]

@@ -1,0 +1,7 @@
+<%# Copyright (C) 2024-2025 LibreWeddingPlanner contributors %>
+
+<p>Welcome <%= @email %>!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><%= link_to 'Confirm my account', confirmation_url(slug: ActsAsTenant.current_tenant&.slug, confirmation_token: @token) %></p>

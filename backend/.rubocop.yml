@@ -1,0 +1,83 @@
+plugins:
+  - rubocop-rails
+  - rubocop-rake
+  - rubocop-factory_bot
+  - rubocop-rspec
+  - rubocop-rspec_rails
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'db/**/*'
+    - db/schema.rb
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/*'
+    - '*.yml'
+    - vendor/bundle/**/*
+Layout/LineLength:
+  Max: 130
+RSpec/ExampleLength:
+  Enabled: false
+RSpec/NoExpectationExample:
+  Enabled: false
+Metrics/ModuleLength:
+  Enabled: false
+Rails/UnusedRenderContent:
+  Enabled: false
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+Rails/StrongParametersExpect:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Metrics/MethodLength:
+  Max: 40
+Naming/PredicateMethod:
+  Exclude:
+    - app/use_cases/create_membership_use_case.rb
+Rails/SkipsModelValidations:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+RSpec/EmptyExampleGroup:
+  Exclude:
+    - spec/requests/**/*
+RSpec/ScatteredSetup:
+  Exclude:
+    - spec/requests/**/*
+Metrics/BlockLength:
+  Max: 50
+  Exclude:
+    - db/seeds.rb
+    - config/routes.rb
+    - spec/swagger_helper.rb
+Rails/Output:
+  Exclude:
+    - db/seeds/*
+    - db/seeds.rb
+RSpec/NestedGroups:
+  Max: 4
+Naming/VariableNumber:
+  Enabled: false
+RSpec/IndexedLet:
+  Enabled: false
+FactoryBot/ExcessiveCreateList:
+  Enabled: false
+Metrics/ClassLength:
+  Max: 200
+RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/ImplicitSubject:
+  Enabled: false
+RSpec/SubjectDeclaration:
+  Enabled: false
+Layout/MultilineMethodCallIndentation:
+  Exclude:
+    - 'spec/models/*'
+Layout/IndentationConsistency:
+  Exclude:
+    - 'spec/models/*'
+RSpec/MessageChain:
+  Enabled: false

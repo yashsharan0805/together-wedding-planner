@@ -1,0 +1,9 @@
+<%# Copyright (C) 2024-2025 LibreWeddingPlanner contributors %>
+
+<%= I18n.t('admin_mailer.greeting') %>,
+
+<%= I18n.t('admin_mailer.attendance_change_email.paragraph_1', name: @guest.name) %>
+
+- <%= I18n.t("active_record.attributes.guest.status") %>: <%= I18n.t("active_record.attributes.guest/status.#{@guest.status}") %>
+
+<%= I18n.t("admin_mailer.attendance_change_email.notify_on_updates") %>
